@@ -1,0 +1,18 @@
+.env
+.venv
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+._*
+
+# Data & Models
+data/raw/*.csv
+data/processed/*.pkl
+data/processed/*.joblib
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
