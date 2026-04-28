@@ -8,7 +8,7 @@ __pycache__/
 
 # Data & Models
 data/raw/*.csv
-data/processed/*.pkl
+# data/processed/*.pkl  <-- Uncommented to allow upload to Render
 data/processed/*.joblib
 !data/raw/.gitkeep
 !data/processed/.gitkeep
